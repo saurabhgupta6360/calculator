@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.form-wrapper {
+  margin: auto;
+  background-color: #003049d9;
+  max-width: 295px;
+  min-height: 31.4rem;
+  border-radius: 4px;
+  position: absolute;
+  max-width: 380px;
+  left: 0%;
+  top: 50%;
+  bottom: 50%;
+  text-align: center;
+  right: 0%;
+  padding: 15px;
+  box-shadow: 0 0 3px #555;
+}
+
+.form-wrapper h1 {
+  font-size: 2rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.form-wrapper .form-row input {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #aaa;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.3rem;
+  min-height: 70px;
+  text-align: right;
+  box-shadow: 0 4px rgb(0 0 0 / 20%);
+}
+
+.form-wrapper .form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 9px;
+}
+
+.form-wrapper .form-row .input-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  flex-grow: 1;
+}
+
+.clear {
+  /* flex-basis: 100px; */
+  background: #d62828;
+  border: 0px solid;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  padding: 23px 34px;
+  cursor: pointer;
+  font-size: 21px;
+  box-shadow: 0 4px rgb(0 0 0 / 20%);
+}
+
+.clear :focus-visible {
+  border: 0px solid;
+}
+
+.clear:hover {
+  background: #cb2626;
+  color: #fff;
+}
+
+.clear-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 90px;
+}
+
+.btn-one {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 90px;
+}
+
+.btn-plus {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-row .btn-one .btn {
+  background: #f7f6f0;
+  border: 0px solid;
+  border-radius: 4px;
+  color: #495069;
+  font-weight: 500;
+  padding: 20px 35px;
+  cursor: pointer;
+  font-size: 21px;
+  box-shadow: 0 4px rgb(0 0 0 / 20%);
+  width: 83px;
+}
+
+.form-row .btn-plus .btn {
+  background: #f77f00;
+  border: 0px solid;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  padding: 20px 35px;
+  cursor: pointer;
+  font-size: 21px;
+  box-shadow: 0 4px rgb(0 0 0 / 20%);
+  width: 83px;
+}
+
+.form-row .btn-plus .btn:hover {
+  background: #f77f00f2;
+}
